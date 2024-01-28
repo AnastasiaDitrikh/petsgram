@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 public class PostController {
- //todo 23.01 тема REST и Spring
+
     private List<Post> posts = new ArrayList<>();
 
     @GetMapping("/posts")
