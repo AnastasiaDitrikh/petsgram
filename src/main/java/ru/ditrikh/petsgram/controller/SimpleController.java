@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.controller;
+package ru.ditrikh.petsgram.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

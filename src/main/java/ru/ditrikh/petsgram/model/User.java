@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.model;
+package ru.ditrikh.petsgram.model;
 
 import lombok.Getter;
 import lombok.Setter;

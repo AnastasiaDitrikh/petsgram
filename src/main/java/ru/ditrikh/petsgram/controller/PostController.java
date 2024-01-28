@@ -1,10 +1,11 @@
-package ru.yandex.practicum.catsgram.controller;
+package ru.ditrikh.petsgram.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.yandex.practicum.catsgram.model.Post;
+import ru.ditrikh.petsgram.model.Post;
+
 import java.util.ArrayList;
 import java.util.List;
 
