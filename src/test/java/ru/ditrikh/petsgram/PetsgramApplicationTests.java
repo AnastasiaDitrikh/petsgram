@@ -1,10 +1,10 @@
-package ru.yandex.practicum.catsgram;
+package ru.ditrikh.petsgram;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CatsgramApplicationTests {
+class PetsgramApplicationTests {
 
 	@Test
 	void contextLoads() {
