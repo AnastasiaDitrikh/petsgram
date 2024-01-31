@@ -1,13 +1,13 @@
 package ru.ditrikh.petsgram.exceptions;
 
 /**
- * Класс InvalidEmailException представляет исключение, которое выбрасывается при некорректном электронном адресе пользователя.
+ * Класс PostNotFoundException представляет исключение, которое выбрасывается если пост не найден.
  * Он наследуется от класса RuntimeException, что означает, что это неконтролируемое исключение и не требует явного обработчика.
  * Конструктор принимает сообщение с описанием ошибки и передает его в конструктор суперкласса RuntimeException.
  */
-public class InvalidEmailException extends RuntimeException {
+public class PostNotFoundException extends RuntimeException {
 
-    public InvalidEmailException(String message) {
+    public PostNotFoundException(String message) {
         super(message);
     }
 }

@@ -6,6 +6,13 @@ import lombok.Setter;
 import java.time.LocalDate;
 import java.util.Objects;
 
+/**
+ * Класс User представляет объект пользователя в системе.
+ * Поля класса:
+ * - email: электронная почта пользователя
+ * - nickname: никнейм пользователя
+ * - birthdate: дата рождения пользователя
+ */
 @Getter
 @Setter
 public class User {

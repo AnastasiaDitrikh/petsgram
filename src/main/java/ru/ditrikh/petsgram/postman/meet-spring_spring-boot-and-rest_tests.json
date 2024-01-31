@@ -164,7 +164,7 @@
               "    pm.response.to.have.status(200);\r",
               "});\r",
               "pm.test(\"Котограм\", function () {\r",
-              "    pm.expect(pm.response.text()).to.include(\"Котограм\");\r",
+              "    pm.expect(pm.response.text()).to.include(\"Питомцевграм\");\r",
               "});"
             ],
             "type": "text/javascript"
